@@ -1,2 +1,6 @@
-project/target/
-target
+target/*
+project/target/*
+project/project/*
+js/target/*
+js/project/target/*
+js/project/project/*
