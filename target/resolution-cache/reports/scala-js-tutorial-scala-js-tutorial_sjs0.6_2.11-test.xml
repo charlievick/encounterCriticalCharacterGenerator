@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="scala-js-tutorial"
+		module="scala-js-tutorial_sjs0.6_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20160418221107"/>
+	<dependencies>
+		<module organisation="org.scala-js" name="scalajs-library_2.11">
+			<revision name="0.6.8" status="release" pubdate="20160318051010" resolver="jcenter" artresolver="jcenter" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.8/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="2225" time="196" location="/Users/cvick/.ivy2/cache/org.scala-js/scalajs-library_2.11/ivy-0.6.8.xml" searched="true" original-local-location="/Users/cvick/.ivy2/cache/org.scala-js/scalajs-library_2.11/ivy-0.6.8.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.8/scalajs-library_2.11-0.6.8.pom"/>
+				<caller organisation="scala-js-tutorial" name="scala-js-tutorial_sjs0.6_2.11" conf="test, compile, runtime" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="successful" details="" size="6697720" time="2143" location="/Users/cvick/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.8/scalajs-library_2.11-0.6.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160308231604" resolver="jcenter" artresolver="jcenter" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="true" searched="true" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master, default(compile), default" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1426" time="234" location="/Users/cvick/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="true" original-local-location="/Users/cvick/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="scala-js-tutorial" name="scala-js-tutorial_sjs0.6_2.11" conf="test, compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.6.8"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5744974" time="1731" location="/Users/cvick/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.7" status="release" pubdate="20150803120311" resolver="jcenter" artresolver="jcenter" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="-1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1424" time="217" location="/Users/cvick/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="true" original-local-location="/Users/cvick/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<evicted-by rev="2.11.8"/>
+				<caller organisation="scala-js-tutorial" name="scala-js-tutorial_sjs0.6_2.11" conf="test, compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
